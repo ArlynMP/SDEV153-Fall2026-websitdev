@@ -11,18 +11,29 @@ span {
   padding-right: 5px;
 }
 
+/* Moves the title to the left and the circle to the top right */
+.site-header {
+  background-color: #dce9f9;
+  border: 2px solid #333;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Centers the letters "CCC" inside the circle */
 .logo-circle {
   width: 80px;
   height: 80px;
   background-color: #ffffff;
   border: 2px solid #333;
-  border-radius: 50%;          /* Turns the square into a perfect circle */
-  display: flex;               /* Centers the text */
-  justify-content: right;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;   /* Changed back to center */
   align-items: center;
-  font-size: 1.5rem;           /* Makes CCC stand out */
+  font-size: 1.5rem;
   font-weight: bold;
-  letter-spacing: 2px;         /* Adds nice spacing between the C's */
+  letter-spacing: 2px;
   color: #333;
 }
 
