@@ -16,28 +16,16 @@ span {
   height: 80px;
   background-color: #ffffff;
   border: 2px solid #333;
-  border-radius: 50%;          /* circle */
-  display: flex;               
-  justify-content: .logo-circle {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff;
-  border: 2px solid #333;
   border-radius: 50%;          /* Turns the square into a perfect circle */
   display: flex;               /* Centers the text */
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;           
+  font-size: 1.5rem;           /* Makes CCC stand out */
   font-weight: bold;
-  letter-spacing: 2px;         
-  color: #333;
-};
-  align-items: center;
-  font-size: 1.5rem;           
-  font-weight: bold;
-  letter-spacing: 1px;         /*spacing between the C's */
+  letter-spacing: 2px;         /* Adds nice spacing between the C's */
   color: #333;
 }
+
 header, main, footer {
   max-width: 800px;
   margin: 0 auto 20px auto;
