@@ -8,7 +8,7 @@ body {
 }
 
 span {
-  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .logo-circle {
@@ -18,7 +18,7 @@ span {
   border: 2px solid #333;
   border-radius: 50%;          /* Turns the square into a perfect circle */
   display: flex;               /* Centers the text */
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   font-size: 1.5rem;           /* Makes CCC stand out */
   font-weight: bold;
